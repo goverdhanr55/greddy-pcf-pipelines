@@ -50,6 +50,9 @@ company_proxy_domain:
 # c2c networking network cidr
 container_networking_nw_cidr: 10.255.0.0/16
 
+# Enable external or silk as CNI plugin
+container_networking_interface_plugin:         # Default to use "silk"
+
 # For credhub integration, Set the number of credhub instances in resource config to 2
 # Primary Encryption Name MUST match one of the encryption key names provided
 # Encryption keys 2 and 3 are optional
