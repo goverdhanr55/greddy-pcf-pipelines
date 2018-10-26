@@ -323,6 +323,7 @@ jobs:
       CREDUB_ENCRYPTION_KEY_SECRET1: {{credhub_encryption_key_secret1}}
       CREDUB_ENCRYPTION_KEY_SECRET2: {{credhub_encryption_key_secret2}}
       CREDUB_ENCRYPTION_KEY_SECRET3: {{credhub_encryption_key_secret3}}
+      SECURE_SERVICE_INSTANCE_CREDENTIALS: {{secure_service_instance_credentials}}
       DEFAULT_QUOTA_MAX_SERVICES_COUNT: {{default_quota_max_number_services}}
       DEFAULT_QUOTA_MEMORY_LIMIT_IN_MB: {{default_quota_memory_limit_mb}}
       DEPLOYMENT_NW_AZS: {{deployment_nw_azs}}

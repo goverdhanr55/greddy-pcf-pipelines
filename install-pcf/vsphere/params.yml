@@ -65,6 +65,10 @@ credhub_encryption_key_secret2: # Optional Secret 2
 credhub_encryption_key_name3: # Optional Name 3
 credhub_encryption_key_secret3: # Optional Secret 2
 
+# Enable service brokers that support storing their service instance credentials in CredHub to do so.
+secure_service_instance_credentials:  # Default disable
+
+
 default_quota_max_number_services: 1000
 default_quota_memory_limit_mb: 10240
 

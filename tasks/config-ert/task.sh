@@ -189,6 +189,7 @@ cf_properties=$(
     --argjson networking_poe_ssl_certs "$networking_poe_ssl_certs_json" \
     --arg container_networking_nw_cidr "$CONTAINER_NETWORKING_NW_CIDR" \
     --arg container_networking_interface_plugin "$CONTAINER_NETWORKING_INTERFACE_PLUGIN" \
+    --arg secure_service_instance_credentials "${SECURE_SERVICE_INSTANCE_CREDENTIALS}" \
     '
     {
       ".properties.system_blobstore": {
