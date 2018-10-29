@@ -498,7 +498,7 @@ resource_types:
 resources:
 - name: pcf-pipelines-tarball
   source:
-    uri: git@github.com:greddy-pcf-pipelines/pcf-pipelines.git
+    uri: git@github.com:goverdhanr55/greddy-pcf-pipelines.git
     branch: master
     private_key: {{git_private_key}}
   type: git
