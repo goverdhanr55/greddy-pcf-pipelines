@@ -198,9 +198,6 @@ cf_properties=$(
       ".properties.logger_endpoint_port": {
         "value": $loggregator_endpoint_port
       },
-      ".properties.container_networking_interface_plugin.silk.network_cidr": {
-        "value": $container_networking_nw_cidr
-      },
       ".properties.container_networking_interface_plugin": {
         "value": $container_networking_interface_plugin
       },
