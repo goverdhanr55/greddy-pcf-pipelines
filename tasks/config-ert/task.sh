@@ -201,6 +201,12 @@ cf_properties=$(
       ".properties.container_networking_interface_plugin.silk.network_cidr": {
         "value": $container_networking_nw_cidr
       },
+      ".properties.container_networking_interface_plugin": {
+        "value": $container_networking_interface_plugin
+      },
+      ".properties.secure_service_instance_credentials": {
+        "value": $secure_service_instance_credentials
+      },
       ".properties.security_acknowledgement": {
         "value": $security_acknowledgement
       },
